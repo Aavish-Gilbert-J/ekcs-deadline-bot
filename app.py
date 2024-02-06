@@ -18,7 +18,7 @@ def ask_question(question):
         return {"error": "Request failed with status code {}".format(response.status_code)}
 
 
-st.title("EKCS Deadline Bot" )
+st.title("McClatchy Deadline Bot" )
 if 'user_input' not in st.session_state:
 	st.session_state['user_input'] = []
 
